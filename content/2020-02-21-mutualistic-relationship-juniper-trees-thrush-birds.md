@@ -7,11 +7,17 @@ tags:
   - bird
   - tree
 ---
-Today, my boss came to our room, "Have you heard of juniper trees?" he asked and started talking about them. I learned a lot of things about juniper trees and trush birds.
+Today, my boss came to our room, "Have you heard of juniper trees?" he asked and started talking about them. I learned a lot of things about juniper trees and thrush birds.
 
-Unlike others; Juniper trees can't self proliferate. They need help to proliferating. Meanwhile, their best friends help them for this awesome natural phenomenon: Thrush birds. Thrush birds ingest to juniper trees' seeds and do the toilet to soil. Juniper seeds sprout on soil. If thrushs left that area or if its generations are exhausted, juniper trees were also extinct. So sadly but amazing!
+Unlike others; Juniper trees can't self proliferate. They need help to proliferating. Meanwhile, their best friends help them for this awesome natural phenomenon: Thrush birds. Thrush birds ingest to juniper trees' seeds and do the toilet to soil. Juniper seeds sprout out from soil. 
 
-![](/images/thrush-bird.jpg)
+![thrush-bird](/images/thrush-bird.jpg "thrush bird")
+
+I had never heard of a bird called "thrush" before. When I wonder and look at the image, I remembered it. It looks like ouzel (or ousel/blackbird, "Karatavuk" in Turkish). But they have different colors. My late father had shown me a lot of times when I was a child.
+
+If thrushs left that area or if its generations are exhausted, juniper trees are also extinct. So sadly but also amazing! If you want to see a few you should visit West Mediterranean or Middle Anatolian area.
+
+Finally, If you interest birds and want to listen birds sounds, link is here: <https://www.birdid.no/bird/eBook.php?specieID=1130&compareSpecieID=1599>
 
 - - -
 
