@@ -1,51 +1,46 @@
 const config = {
-  author: 'Papan01', // Site owner
-  siteTitle: 'Gatsby-Starter-Papan01', // Site title.
-  siteTitleShort: 'GatsbyJS P01', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'GatsbyJS-Starter-Papan01', // Alternative site title for SEO.
+  author: 'Ceviz Lab', // Site owner
+  siteTitle: 'Ceviz Blog', // Site title.
+  siteTitleShort: 'Ceviz Blog', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'Ceviz-Blog', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
-  siteDescription: 'A blog starter with the bare essentials needed for a Gatsby site(SEO, pagination, category etc.)', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'Reach tips to make your life easier.', // Website description used for RSS feeds/meta description tag.
   siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
-  siteUrl: 'https://gatsby-starter-papan01.netlify.com', // Domain of your website without pathPrefix.
+  siteUrl: 'https://ceviz.io', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
-  siteFBAppID: '464217807633356', // FB Application ID for using app insights
-  siteGATrackingID: 'UA-153303709-3', // Tracking code ID for google analytics.
-  disqusShortname: 'gatsbyjs-starter-papan01', // Disqus shortname.
-  twitterUserName: '', // twitter creator for SEO
-  datePublished: '2019-12-08', // for SEO
-  copyrightYear: '2019', // for SEO
-  postsPerPage: 4, // posts per page used in gatsby-node.js
+  siteFBAppID: '', // FB Application ID for using app insights
+  siteGATrackingID: 'UA-158788730-1', // Tracking code ID for google analytics.
+  disqusShortname: 'www-ceviz-io.disqus.com', // Disqus shortname.
+  twitterUserName: 'burakibs', // twitter creator for SEO
+  datePublished: '2020-02-20', // for SEO
+  copyrightYear: '2020', // for SEO
+  postsPerPage: 5, // posts per page used in gatsby-node.js
   // Links to social profiles you want to display in the footer.
   rrssb: [
     {
       label: 'github',
-      url: 'https://github.com/papan01',
+      url: 'https://github.com/mindlabcore',
       iconClassName: 'fab fa-github',
     },
     {
       label: 'mail',
-      url: 'mailto:navy90517@gmail.com',
+      url: 'mailto:burak@ceviz.io',
       iconClassName: 'fa fa-envelope',
     },
     {
-      label: 'facebbok',
-      url: 'https://www.facebook.com/louis.peng.58?ref=bookmarks',
+      label: 'gitlab',
+      url: 'https://gitlab.com/burakibis',
       iconClassName: 'fab fa-facebook',
     },
     {
       label: 'instagram',
-      url: 'https://www.instagram.com/n_louis_peng/?hl=zh-tw',
+      url: 'https://www.instagram.com/burippo',
       iconClassName: 'fab fa-instagram',
     },
   ],
   // Links to pages you want to display in the navigation bar.
   navbarLinks: [
-    {
-      label: 'Archives',
-      url: '/archives',
-      iconClassName: 'fa fa-book-open',
-    },
     {
       label: 'Categories',
       url: '/categories',
@@ -55,6 +50,11 @@ const config = {
       label: 'About',
       url: '/about',
       iconClassName: 'fa fa-address-card',
+    },
+    {
+      label: 'Archives',
+      url: '/archives',
+      iconClassName: 'fa fa-book-open',
     },
   ],
 };
