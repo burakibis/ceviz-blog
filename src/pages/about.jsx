@@ -17,7 +17,7 @@ const About = () => {
               software experiences, problems and projects I encounter on a weekly basis.
               It is also a small contribution to the open source world. All kinds of
               questions, opinions, suggestions, even 'I have an idea but..' everything you
-              say. Feel free to contact with me on my e-mail (burak@virgul.co).
+              say. Feel free to contact with me on my e-mail (burak@ceviz.io).
   </p>
             <h2 id="personalinformations">Personal Informations</h2>
             <p>
