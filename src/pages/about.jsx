@@ -13,7 +13,7 @@ const About = () => {
         <section className="about-context">
           <div>
             <p>
-              <strong>Virgul.co</strong> is a technology blog where I mostly share my
+              <strong>ceviz.io</strong> is a technology blog where I mostly share my
               software experiences, problems and projects I encounter on a weekly basis.
               It is also a small contribution to the open source world. All kinds of
               questions, opinions, suggestions, even 'I have an idea but..' everything you
@@ -52,10 +52,19 @@ const About = () => {
             <ul>
               <li>
                 <p>
-                  <strong>Virgul.co</strong>: Developed with Jekyll, a blog framework
+                  <strong>virgul.co</strong>: Developed with Jekyll, a blog framework
                   written in Ruby. It's text based and hosted serverless on GitHub Pages.
         If you're wondering how to install, deploy, and develop, you can visit{" "}
                   <a href="https://jekyllrb.com/">Jekyll Documantation</a>{" "}
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ceviz.io</strong>: Developed with React.js, a blog framework
+                  written in Javascript (Node.js + Gatsby.js). It's text based and hosted serverless on GitHub Pages by Netlify.
+                  I used <a href="https://github.com/papan01/gatsby-starter-papan01">Papan01 themes</a>.
+        If you're wondering how to install, deploy, and develop, you can visit{" "}
+                  <a href="https://docs.netlify.com/">Netlify Documantation</a>{" "}
                 </p>
               </li>
               <li>
@@ -64,7 +73,7 @@ const About = () => {
                   exchanges with Cryptocurrency. Backend developed with Django and
                   frontend has little bit React.js. Development is ongoing. Uses the
                   PostgrSQL database. Celery is used for asynchronous operations.
-      </p>
+                </p>
               </li>
               <li>
                 <p>
