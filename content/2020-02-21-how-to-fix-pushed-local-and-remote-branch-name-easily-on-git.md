@@ -1,7 +1,7 @@
 ---
 title: How to fix pushed local and remote branch name easily on Git?
 date: 2020-01-23T21:56:00.000Z
-cover: /images/gitlab-vs-github.jpg
+cover: /images/ezgif.com-webp-to-jpg.jpg
 category: Tech Hecks
 tags:
   - git
@@ -87,3 +87,5 @@ Your old shitty branch and merge request will delete and you can open new merge 
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 _[Sources:_ [_https://www.github.com/joshnh/Git-Commands/blob/master/README.md_](https://github.com/joshnh/Git-Commands/blob/master/README.md)_]_
+
+_[Cover image:_ [_https://svitla.com/blog/gitlab-vs-github_](https://svitla.com/blog/gitlab-vs-github)_]_
