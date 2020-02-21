@@ -4,14 +4,15 @@ const config = {
   siteTitleShort: 'Ceviz Blog // Mind-Opening Hacks', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'Ceviz-Blog', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
-  siteDescription: 'Reach tips to make your life easier.', // Website description used for RSS feeds/meta description tag.
+  siteDescription:
+    'Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live.', // Website description used for RSS feeds/meta description tag.
   siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
   siteUrl: 'https://ceviz.io', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '', // FB Application ID for using app insights
   siteGATrackingID: 'UA-158788730-1', // Tracking code ID for google analytics.
-  disqusShortname: 'www-ceviz-io.disqus.com', // Disqus shortname.
+  disqusShortname: 'www-ceviz-io', // Disqus shortname.
   twitterUserName: 'burakibs', // twitter creator for SEO
   datePublished: '2020-02-20', // for SEO
   copyrightYear: '2020', // for SEO

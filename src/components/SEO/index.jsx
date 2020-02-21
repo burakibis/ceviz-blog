@@ -154,32 +154,33 @@ const SEO = ({ title, description, image, path, articleDate }) => {
 
   return (
     <Helmet title={seo.title}>
-      <html lang={siteLanguage} />
-      <link rel="canonical" href={`${seo.url}`} />
-      <meta name="description" content={seo.description} />
-      <meta name="image" content={seo.image} />
-      {/* Schema.org */}
-      {!articleDate && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
-      {articleDate && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
-      <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
-      {/* OpenGraph */}
-      <meta property="og:site_name" content={defaultTitle} />
-      <meta property="og:url" content={seo.url} />
-      {articleDate && <meta property="og:type" content="article" />}
-      <meta property="og:title" content={seo.title} />
-      <meta property="og:description" content={seo.description} />
-      <meta property="og:image" content={seo.image} />
-      <meta property="og:image:alt" content={seo.description} />
-      {/* fb app id */}
-      <meta property="fb:app_id" content={fbAppId || ''} />
-      {/* Twitter Card */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content={twitterUsername} />
-      <meta name="twitter:title" content={seo.title} />
-      <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={seo.image} />
-      <meta name="twitter:image:alt" content={seo.description} />
       <div>
+        <html lang={siteLanguage} />
+        <link rel="canonical" href={`${seo.url}`} />
+        <meta name="description" content={seo.description} />
+        <meta name="image" content={seo.image} />
+        {/* Schema.org */}
+        {!articleDate && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
+        {articleDate && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
+        <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+        {/* OpenGraph */}
+        <meta property="og:site_name" content={defaultTitle} />
+        <meta property="og:url" content={seo.url} />
+        {articleDate && <meta property="og:type" content="article" />}
+        <meta property="og:title" content={seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:image" content={seo.image} />
+        <meta property="og:image:alt" content={seo.description} />
+        {/* fb app id */}
+        <meta property="fb:app_id" content={fbAppId || ''} />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content={twitterUsername} />
+        <meta name="twitter:title" content={seo.title} />
+        <meta name="twitter:description" content={seo.description} />
+        <meta name="twitter:image" content={seo.image} />
+        <meta name="twitter:image:alt" content={seo.description} />
+
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
@@ -197,30 +198,6 @@ const SEO = ({ title, description, image, path, articleDate }) => {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-        {/* Primary Meta Tags */}
-        <meta name="title" content="Ceviz.io - Mind-Opening Hacks" />
-        <meta
-          name="description"
-          content="Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live."
-        />
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ceviz.io/" />
-        <meta property="og:title" content="Ceviz.io - Mind-Opening Hacks" />
-        <meta
-          property="og:description"
-          content="Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live."
-        />
-        <meta property="og:image" content />
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.ceviz.io/" />
-        <meta property="twitter:title" content="Ceviz.io - Mind-Opening Hacks" />
-        <meta
-          property="twitter:description"
-          content="Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live."
-        />
-        <meta property="twitter:image" content />
       </div>
     </Helmet>
   );
