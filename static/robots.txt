@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-sitemap: https://papan01-blog-gatsby-starter.netlify.com/sitemap.xml
+sitemap: https://ceviz.io/sitemap.xml

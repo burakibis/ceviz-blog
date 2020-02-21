@@ -1,7 +1,7 @@
 const config = {
   author: 'Ceviz Lab', // Site owner
-  siteTitle: 'Ceviz Blog', // Site title.
-  siteTitleShort: 'Ceviz Blog', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitle: 'Ceviz Blog // Mind-Opening Hacks', // Site title.
+  siteTitleShort: 'Ceviz Blog // Mind-Opening Hacks', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'Ceviz-Blog', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription: 'Reach tips to make your life easier.', // Website description used for RSS feeds/meta description tag.

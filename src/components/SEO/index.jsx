@@ -197,6 +197,30 @@ const SEO = ({ title, description, image, path, articleDate }) => {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
+        {/* Primary Meta Tags */}
+        <meta name="title" content="Ceviz.io - Mind-Opening Hacks" />
+        <meta
+          name="description"
+          content="Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live."
+        />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.ceviz.io/" />
+        <meta property="og:title" content="Ceviz.io - Mind-Opening Hacks" />
+        <meta
+          property="og:description"
+          content="Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live."
+        />
+        <meta property="og:image" content />
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.ceviz.io/" />
+        <meta property="twitter:title" content="Ceviz.io - Mind-Opening Hacks" />
+        <meta
+          property="twitter:description"
+          content="Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live."
+        />
+        <meta property="twitter:image" content />
       </div>
     </Helmet>
   );
