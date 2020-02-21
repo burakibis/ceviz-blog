@@ -42,10 +42,7 @@ const About = () => {
               <li>Javascript based: React.js, React Native,</li>
               <li>DevOps: Vagrant, Docker,</li>
               <li>Database: SQLite3, PostgreSQL, MySQL,</li>
-              <li>
-                Tools: GitLab (+API), GitHub (+API), Redmine (+API), Sendgrid (+API),
-                Slack (I ❤ Slack API)
-    </li>
+              <li>Tools: GitLab (+API), GitHub (+API), Redmine (+API), Sendgrid (+API), Slack (I ❤ Slack API)</li>
               <li>Trying something with Arduino</li>
             </ul>
             <h2 id="projects">Projects</h2>
