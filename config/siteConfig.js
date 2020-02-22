@@ -1,7 +1,7 @@
 const config = {
   author: 'Ceviz Lab', // Site owner
-  siteTitle: 'Ceviz Blog // Mind-Opening Hacks', // Site title.
-  siteTitleShort: 'Ceviz Blog // Mind-Opening Hacks', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitle: 'Ceviz Blog / Mind-Opening Hacks', // Site title.
+  siteTitleShort: 'Ceviz Blog / Mind-Opening Hacks', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'Ceviz-Blog', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription:
@@ -16,7 +16,7 @@ const config = {
   twitterUserName: 'burakibs', // twitter creator for SEO
   datePublished: '2020-02-20', // for SEO
   copyrightYear: '2020', // for SEO
-  postsPerPage: 5, // posts per page used in gatsby-node.js
+  postsPerPage: 4, // posts per page used in gatsby-node.js
   // Links to social profiles you want to display in the footer.
   rrssb: [
     {

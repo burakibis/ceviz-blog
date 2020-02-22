@@ -84,6 +84,7 @@ module.exports = {
         theme_color: `#282c35`,
         display: `standalone`,
         icon: config.siteLogo,
+        crossOrigin: `use-credentials`,
         icons: [
           {
             src: `favicons/logo-192x192.png`,
