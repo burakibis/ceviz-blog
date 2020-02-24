@@ -1,6 +1,6 @@
 ---
 title: How to fix pushed local and remote branch name easily on Git?
-date: 2020-01-23T21:56:00.000Z
+date: 2020-01-24T09:56:00.000Z
 cover: /images/ezgif.com-webp-to-jpg.jpg
 category: Tech Hecks
 tags:
