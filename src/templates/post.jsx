@@ -49,6 +49,8 @@ const Post = ({ data, pageContext }) => {
   const { title, tags, cover, date, category } = frontmatter;
   const { slug, prev, next } = pageContext;
   const Disqus = loadable(() => import('../components/disqus'));
+
+  console.log(cover);
   return (
     <Layout>
       <SEO title={title} description={excerpt} image={cover.publicURL} path={slug} articleDate={date} />

@@ -4,6 +4,16 @@ import config from '../../../config/siteConfig';
 import './style.scss';
 import GitLabPNG from './custom_icons/gitlab-brands.png';
 
+const FooterList = () => {
+  return (
+    <p>
+      <a href={config.footerLinks[0].url}>{config.footerLinks[0].label}</a>
+      {' | '}
+      <a href={config.footerLinks[1].url}>{config.footerLinks[1].label}</a>
+    </p>
+  );
+};
+
 const Footer = () => {
   return (
     <footer className="footer container">
@@ -27,6 +37,7 @@ const Footer = () => {
         </a>
       </div>
       <p>{config.copyright}</p>
+      <FooterList />
     </footer>
   );
 };

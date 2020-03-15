@@ -10,13 +10,13 @@ const config = {
   siteUrl: 'https://ceviz.io', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
-  siteFBAppID: '', // FB Application ID for using app insights
+  siteFBAppID: '798155870693074', // FB Application ID for using app insights
   siteGATrackingID: 'UA-158788730-1', // Tracking code ID for google analytics.
   disqusShortname: 'www-ceviz-io', // Disqus shortname.
   twitterUserName: 'burakibs', // twitter creator for SEO
   datePublished: '2020-02-20', // for SEO
   copyrightYear: '2020', // for SEO
-  postsPerPage: 4, // posts per page used in gatsby-node.js
+  postsPerPage: 6, // posts per page used in gatsby-node.js
   // Links to social profiles you want to display in the footer.
   rrssb: [
     {
@@ -56,6 +56,17 @@ const config = {
       label: 'Archives',
       url: '/archives',
       iconClassName: 'fa fa-book-open',
+    },
+  ],
+  // Links to pages you want to display in the footer.
+  footerLinks: [
+    {
+      label: 'Privacy Policy',
+      url: '/privacyPolicy',
+    },
+    {
+      label: 'Terms And Conditions',
+      url: '/terms',
     },
   ],
 };
