@@ -30,13 +30,13 @@ function pagination(currentPage, pageCount, delta = 2) {
 const PostPagination = ({ currentPage, numPages, subpath }) => {
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
-  const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString();
-  const nextPage = (currentPage + 1).toString();
+  const prevPage = currentPage - 1 === 1 ? '/' : `/${(currentPage - 1).toString()}`;
+  const nextPage = `/${(currentPage + 1).toString()}`;
   const pages = pagination(currentPage, numPages);
   return (
     <div className="post-pagination">
       {!isFirst && (
-        <Link to={prevPage} rel="prev">
+        <Link to={`${subpath}${prevPage}`} rel="prev">
           <i className="fas fa-arrow-left" />
           Previous Page
         </Link>
@@ -57,7 +57,7 @@ const PostPagination = ({ currentPage, numPages, subpath }) => {
         )}
       </div>
       {!isLast && (
-        <Link to={nextPage} rel="next">
+        <Link to={`${subpath}${nextPage}`} rel="next">
           Next Page
           <i className="fas fa-arrow-right" />
         </Link>
