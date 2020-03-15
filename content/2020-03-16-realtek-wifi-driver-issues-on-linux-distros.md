@@ -1,7 +1,7 @@
 ---
 title: Realtek WIFI Driver Issues on Linux Distros
 date: 2020-02-24T15:16:37.727Z
-cover: /images/linux-meme.png
+cover: /images/linux-meme-full.png
 category: Linux
 tags:
   - how to make
