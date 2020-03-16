@@ -15,7 +15,7 @@ Hello guys. If you use forms on your Django web applications and you want to cle
 
 For example, you have a product model and your visitors select something on form like status.
 
-If your choices are:
+We consider the options as follows:
 * Task
 * Pending
 * Published
@@ -42,8 +42,10 @@ STATUS = (
 Your product model:
 ```python
 class Product(models.Model):
-  category = models.ForeignKey("Category", on_delete=models.CASCADE, verbose_name="Category Name", blank=True, null=True)
-  title = models.CharField(max_length=50, verbose_name="Product Title", blank=True, null=True)
+  category = models.ForeignKey("Category", on_delete=models.CASCADE,
+    verbose_name="Category Name", blank=True, null=True)
+  title = models.CharField(max_length=50, verbose_name="Product Title",
+    blank=True, null=True)
   status = models.CharField(choices=STATUS)
 ```
 
@@ -84,13 +86,21 @@ And your model should be below:
 ```python
 class Product(models.Model):
   ...
-  status = models.CharField(choices=((x.value, x.name.title()) for x in Status), default=Status.TASK)
+  status = models.CharField(
+    choices=(
+        (x.value, x.name.title()) for x in Status),
+    default=Status.TASK
+    )
 ```
 or
 ```python
 class Product(models.Model):
   ...
-  status = models.IntegerField(choices=((x.value, x.name.title()) for x in Status), default=Status.TASK)
+  status = models.IntegerField(
+    choices=(
+        (x.value, x.name.title()) for x in Status),
+    default=Status.TASK
+    )
 ```
 
 You can set a default value as I added above.
