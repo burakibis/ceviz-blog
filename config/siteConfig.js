@@ -21,7 +21,7 @@ const config = {
   rrssb: [
     {
       label: 'github',
-      url: 'https://github.com/mindlabcore',
+      url: 'https://github.com/burakibis',
       iconClassName: 'fab fa-github',
     },
     {
