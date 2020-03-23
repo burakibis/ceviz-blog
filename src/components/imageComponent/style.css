@@ -1,0 +1,26 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .small {
+    width: 320px;
+  }
+}
+
+@media (min-width: 480px) {
+  .small {
+    width: 700px;
+  }
+}
+
+.photo-div {
+  text-align: center;
+}
+
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 0%;
+  top: 10%;
+}
+
+.image {
+  width: 1000px;
+}
