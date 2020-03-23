@@ -2,7 +2,8 @@
 import React from 'react';
 import config from '../../../config/siteConfig';
 import './style.scss';
-import GitLabPNG from './custom_icons/gitlab-brands.png';
+import GitLabPNG from '../../../static/customIcons/gitlab-brands.png';
+import TwitterPNG from '../../../static/customIcons/twitter-brands.png';
 
 const FooterList = () => {
   return (
@@ -23,6 +24,12 @@ const Footer = () => {
             return (
               <a href={item.url} key={item.label} target="_blank" rel="noopener noreferrer" aria-label={item.label}>
                 <img src={GitLabPNG} style={{ height: '30px' }} />
+              </a>
+            );
+          } else if (item.label === 'twitter') {
+            return (
+              <a href={item.url} key={item.label} target="_blank" rel="noopener noreferrer" aria-label={item.label}>
+                <img src={TwitterPNG} style={{ height: '30px' }} />
               </a>
             );
           }

@@ -21,8 +21,13 @@ const config = {
   rrssb: [
     {
       label: 'github',
-      url: 'https://github.com/mindlabcore',
+      url: 'https://github.com/burakibis',
       iconClassName: 'fab fa-github',
+    },
+    {
+      label: 'twitter',
+      url: 'https://twitter.com/brkibis',
+      iconClassName: 'fab fa-youtube',
     },
     {
       label: 'mail',
@@ -46,6 +51,11 @@ const config = {
       label: 'Categories',
       url: '/categories',
       iconClassName: 'fa fa-list-alt',
+    },
+    {
+      label: 'Arts',
+      url: '/arts',
+      iconClassName: 'fas fa-palette',
     },
     {
       label: 'About',
