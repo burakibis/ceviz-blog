@@ -17,7 +17,6 @@ const About = () => {
           contribution to the open source world. All kinds of questions, opinions, suggestions, even 'I have an idea
           but..' everything you say. Feel free to contact with me on my e-mail, Twitter or Instagram.
           <h2>About Me</h2>
-
           I was born in Balikesir/Turkey at 1993 of July. In 1998, my father bought a computer that name is "Escort". I
           learnt using PC with Chip and PCOyun magazines. The first website that I entered with ixir and 56K modem
           (that's my first internet provider) is grafi2000. When we realized that the internet was something that could
