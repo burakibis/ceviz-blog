@@ -1,11 +1,11 @@
 const config = {
   author: 'Ceviz Lab', // Site owner
-  siteTitle: 'Ceviz Blog / Mind-Opening Hacks', // Site title.
-  siteTitleShort: 'Ceviz Blog / Mind-Opening Hacks', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'Ceviz-Blog', // Alternative site title for SEO.
+  siteTitle: 'Ceviz Blog | Mind-Opening Hacks', // Site title.
+  siteTitleShort: 'Ceviz Blog | Mind-Opening Hacks', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'Ceviz Blog', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription:
-    'Software, nature, human, books, more. Okay, I am not an alchemist, but I want share personal personalities, what I produce, what I earn, what I live.', // Website description used for RSS feeds/meta description tag.
+    'Software, nature, human, books, more. Okay, I am not an alchemist, but I want share my personal personalities, what I produce, what I earn, what I live.', // Website description used for RSS feeds/meta description tag.
   siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
   siteUrl: 'https://ceviz.io', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
