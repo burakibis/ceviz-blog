@@ -21,6 +21,15 @@
   top: 10%;
 }
 
-.image {
-  width: 1000px;
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) {
+  .image {
+    width: 70%;
+  }
 }

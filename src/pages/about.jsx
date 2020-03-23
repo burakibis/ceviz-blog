@@ -11,12 +11,12 @@ const About = () => {
 
       <div className="markdowm-body">
         <p>
-          <h1>About Ceviz Lab</h1>
+          <h2>About Ceviz Lab</h2>
           Ceviz Lab is a roof where I gather my initiatives. <strong>ceviz.io</strong> is a technology blog where I
           mostly share my software experiences, problems and projects I encounter on a weekly basis. It is also a small
           contribution to the open source world. All kinds of questions, opinions, suggestions, even 'I have an idea
           but..' everything you say. Feel free to contact with me on my e-mail, Twitter or Instagram.
-          <h1>About Me</h1>
+          <h2>About Me</h2>
 
           I was born in Balikesir/Turkey at 1993 of July. In 1998, my father bought a computer that name is "Escort". I
           learnt using PC with Chip and PCOyun magazines. The first website that I entered with ixir and 56K modem
