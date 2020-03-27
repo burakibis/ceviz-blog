@@ -38,10 +38,22 @@ VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005),
 component ConsoleWrap, interface IConsole
 ```
 
-I searched on Google and I learnt, after Virtualbox 5.8.2 virtual machine names has a maximum size. Here you heard, the error thrown is actually about the length of the name of the box created. So funny. But you can easily fix this. Open your and find Vagrantbox file on your repo root, add this line to "Provider-specific configuration" block (it doesn't matter):
+I searched on Google and I learnt, after Virtualbox 5.8.2 virtual machine names has a maximum size. Here you heard, the error thrown is actually about the length of the name of the box created. So funny. But you can easily fix this. Open your and find Vagrantbox file on your repo root, add this line to inside of "Provider-specific configuration" block (it's important):
 
 ```vagrant
-vb.customize ["modifyvm", :id, "--audio", "none"]
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. These expose provider-specific options.
+  # Example for VirtualBox:
+  #
+  config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  #   vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+    vb.memory = "2048"
+    vb.customize ["modifyvm", :id, "--audio", "none"] # <----- our new line is here
+  end
+  #
 ```
 
 And write your console `vagrant up` again. It's up. Bye!
